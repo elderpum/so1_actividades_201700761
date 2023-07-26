@@ -1,2 +1,7 @@
-# so1_actividades_201700761
-Repositorio para las distintas actividades a desarrollarse en el curso Sistemas Operativos #1
+# Sistemas Operativos #1
+```js
+Universidad San Carlos de Guatemala
+Programador: Elder Anibal Pum Rojas
+Carne: 201700761
+Correo: ElderPum@gmail.com
+```
