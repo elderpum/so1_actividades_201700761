@@ -33,3 +33,8 @@ Este tipo de kernel tiene como objetivo brindar manejo de hardware a nivel de ap
 Este tipo de modos refieren al acceso de los recursos del sistema. En el modo de kernel, el programa tiene acceso directo e ilimitado a los recursos del sistema, mientras que en modo de usuario no. En caso de las interrupciones, en modo de kernel todo el sistema se detiene si se causa una interrupción, mientras que en modo de usuario se detiene solo el proceso. También tiene que ver con los permisos de lectura/escritura/ejecución de archivos/binarios en el sistema. La otra diferencia es la dirección en la que corren. En el modo de kernel todos los procesos comparten la misma dirección virtual, mientras que en el modo de usuario cada proceso tiene su propia dirección.
 
 El modo de kernel puede acceder a programas tanto en el kernel como en el usuario. Mientras que el usuario solo puede acceder a usuario, y si desea acceder al kernel debe hacerlo con una aplicación de kernel intermediaria.
+
+## Interruptions vs Traps
+Una interrupción es una señal que envía el hardware al kernel para indicar que se ha producido un evento externo. Por ejemplo, una interrupción puede producirse cuando se recibe una señal del teclado, cuando se completa una operación de E/S, o cuando se produce un error de hardware.
+
+Una trampa es una señal que envía el software al kernel para indicar que se ha producido un error. Por ejemplo, una trampa puede producirse cuando se produce un acceso ilegal a la memoria, cuando se produce una división por cero, o cuando se produce una instrucción no válida.
