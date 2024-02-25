@@ -1,0 +1,8 @@
+[Unit]
+Description=Servicio para actividad tres, prueba de Systemd Unit
+
+[Service]
+ExecStart=/usr/local/bin/actividad3.sh
+
+[Install]
+WantedBy=multi-user.target
